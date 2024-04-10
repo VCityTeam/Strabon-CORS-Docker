@@ -8,6 +8,7 @@ A CORS enabled RDF-Store for storing/serving spatio-temporal semantic graph data
 
 ## Modifications from source:
 **Dockerfile:**
+- Configure Strabon credentials at build time with arguments
 - Add new tomcat configuration file
 
 **web.xml:**
